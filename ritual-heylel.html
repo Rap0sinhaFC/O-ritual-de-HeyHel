@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[ARTIGO CENSURADO] O Ritual Proibido de Heylel</title>
+    <style>
+        /* ESTÉTICA WIKIPEDIA - ANOS 2010 */
+        body {
+            background-color: #eaecf0; /* Cinza claro de fundo, típico */
+            font-family: 'Arial', sans-serif;
+            color: #202122;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        #container {
+            width: 980px; /* Layout fixo para computador */
+            background-color: #ffffff;
+            border: 1px solid #a7d7f9;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 25px 0;
+            padding: 1em 2.5em;
+        }
+
+        #main-title {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-size: 2.2em;
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 0.2em;
+            margin-top: 0;
+            font-weight: normal;
+        }
+        
+        p, li {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.7;
+            font-size: 1em;
+        }
+
+        h2 {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-weight: normal;
+            border-bottom: 1px solid #a2a9b1;
+            margin-top: 1.5em;
+            padding-bottom: 0.2em;
+            font-size: 1.8em;
+        }
+
+        .info-box {
+            border: 1px solid #a2a9b1;
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .info-box h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .forbidden-quote {
+            font-family: 'Courier New', monospace;
+            background-color: #f0f0f0;
+            border-left: 3px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.3em;
+        }
+        
+        .forbidden-quote span {
+            display: block;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            font-style: italic;
+            font-size: 0.8em;
+            color: #555;
+            margin-top: 8px;
+        }
+        
+        /* ESTILOS DA IMAGEM CENSURADA E ERRO */
+        .image-container {
+            width: 350px;
+            float: right; /* Flutuar à direita, como em artigos */
+            margin-left: 25px;
+            margin-bottom: 15px;
+            border: 1px solid #a2a9b1;
+            background-color: #f8f9fa;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+        
+        .censored-image {
+            width: 100%;
+            height: 400px;
+            background: #000;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            font-size: 1.5em;
+            text-shadow: 0 0 5px red;
+            /* Efeito de censura com blur */
+            filter: blur(8px);
+            -webkit-filter: blur(8px);
+        }
+        
+        .image-caption {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        #showImageBtn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #36c;
+            color: white;
+            border: 1px solid #2a4e99;
+            border-radius: 2px;
+            cursor: pointer;
+            font-family: 'Arial', sans-serif;
+        }
+
+        #showImageBtn:hover {
+            background-color: #447ff5;
+        }
+
+        #errorMessage {
+            display: none; /* Começa escondido */
+            border: 1px solid #d33;
+            background-color: #fdd;
+            padding: 15px;
+            color: #000;
+            font-family: 'Arial', sans-serif;
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="container" class="clearfix">
+        <h1 id="main-title">🔥 O Ritual Proibido de Heylel</h1>
+
+        <p>Você já ouviu falar do ritual secreto de Heylel? Durante séculos, historiadores e curiosos tentaram compreender os relatos que falam de uma estátua enigmática, usada como chave para acessar um templo abandonado em honra a Heylel.</p>
+
+        <div class="image-container">
+            <div class="censored-image">IMAGEM REMOVIDA</div>
+            <div class="image-caption">Suposta representação da estátua de Heylel recuperada de manuscritos.</div>
+            <button id="showImageBtn">Exibir imagem</button>
+            <div id="errorMessage">
+                <strong>Falha na renderização do arquivo.</strong><br>
+                Não foi possível carregar a imagem por conta de erros no servidor, tente novamente mais tarde [erro-404]
+            </div>
+        </div>
+
+        <p>Dizem que, nas sombras da tradição hebraica antiga, este ritual era realizado em momentos de crise, quando a comunidade temia pragas, guerras e maus presságios.</p>
+
+        <p>E o mais surpreendente: segundo registros obscuros, quem segurava a estátua e recitava uma frase proibida era imediatamente transportado para o templo de Heylel.</p>
+
+        <h2>⚠ A Frase Proibida</h2>
+
+        <p>Nos textos fragmentados, há uma inscrição que se repete, considerada essencial para a transição:</p>
+            
+        <div class="forbidden-quote">
+            “Heylel vitam nobis dabit”
+            <span>(“Heylel nos dará a vida”)</span>
+        </div>
+
+        <p>Segundo as narrativas, bastava segurar a estátua com firmeza e repetir a frase em voz clara para sentir uma vertigem e ser levado ao templo esquecido.</p>
+        
+        <h2>🔮 Como Era Feito o Ritual (Segundo os Antigos)</h2>
+        <p>De acordo com os relatos — nunca confirmados pela arqueologia, mas preservados em tradições orais —, o ritual seguia etapas rigorosas:</p>
+        <ol>
+            <li><strong>Segurar a Estátua:</strong> o objeto era considerado a chave para abrir o caminho.</li>
+            <li><strong>Ambiente Silencioso:</strong> acreditava-se que o silêncio ajudava a “ouvir” o chamado de Heylel.</li>
+            <li><strong>Recitar a Frase Proibida:</strong> “Heylel vitam nobis dabit”, repetida até a sensação de vertigem surgir.</li>
+            <li><strong>Visão do Templo:</strong> o participante dizia ser transportado para um templo escuro, abandonado, com colunas quebradas e paredes cobertas de símbolos.</li>
+            <li><strong>O Sacrifício:</strong> alimentos, flores ou até mesmo sangue de animais eram oferecidos para afastar os maus presságios.</li>
+        </ol>
+
+        <h2>👁 Mistério ou Realidade?</h2>
+
+        <p>Nenhuma escavação arqueológica encontrou provas da existência desse templo ou da famosa estátua. Para os estudiosos mais céticos, tudo não passa de uma lenda. Mas há quem diga que manuscritos antigos descrevem com detalhes assustadoramente semelhantes o mesmo ritual.</p>
+
+        <p>E aí fica a pergunta: teria o povo hebraico realmente usado uma estátua para atravessar portais espirituais?</p>
+
+        <div class="info-box">
+            <h3>🔎 Você sabia?</h3>
+            <p style="margin: 0;">Alguns pesquisadores afirmam que o ritual de Heylel inspirou ritos posteriores em diferentes culturas, sempre ligados à ideia de estátuas como portais entre mundos.</p>
+        </div>
+    </div>
+
+    <script>
+        // Pega o botão pelo seu ID
+        const showButton = document.getElementById('showImageBtn');
+        
+        // Pega a mensagem de erro pelo seu ID
+        const errorMessage = document.getElementById('errorMessage');
+
+        // Adiciona um "ouvinte" que espera pelo clique no botão
+        showButton.addEventListener('click', function() {
+            // Quando o botão for clicado:
+            
+            // 1. Mostra a mensagem de erro
+            errorMessage.style.display = 'block';
+            
+            // 2. Esconde o próprio botão para não poder clicar de novo
+            showButton.style.display = 'none';
+        });
+    </script>
+
+</body>
+</html>
